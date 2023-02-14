@@ -1,0 +1,38 @@
+****************readMe first****************
+1.comment:
++ :add a new issue or API.
+- :remove useless or error API.
+x :fix some exist bug.
+* :modify exist API.
+****************readMe first****************
+
+********************************************
+Online version : 1.0.2
+Author      : Albert Hu
+Date        : 2022/12/08
+Change List :
++: issue.png,suggest.png
+*: App.vue 新增意见反馈按钮及相应弹窗，会将反馈的意见储存在数据库内。
+*: upload.vue 修复先选择tag后选择type会导致上传成功后不展示的bug。
+
+********************************************
+
+
+********************************************
+Online version : 1.0.1
+Author      : Albert Hu
+Date        : 2022/12/05
+Change List :
++:页面相关:App.vue,下属分页面[
+home.vue,
+me.vue,下属分页面:(down.vue,fvrt.vue,myUpload.vue,profile.vue)
+pptcontent.vue,
+search.vue,
+upload.vue]
++:组件相关:wt-card.vue,wt-page.vue
++:设置相关: index.js,main.js,bus.js,const.js,util.js,interceptor.js,request.js
+
+目前登录，下载ppt，收藏ppt，上传ppt，查看ppt详细信息，根据关键词查找ppt，修改个人信息等功能已实现。
+********************************************
+
+
